@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نظام الشمسي - استمارة تقييم الموقع</title>
+  </head>
+  <body>
+    <h1>استمارة تقييم الموقع</h1>
+    <form>
+      <label>الاسم:</label>
+      <input type="text" /><br /><br />
+
+      <label>اللقب:</label>
+      <input type="text" /><br /><br />
+
+      <label>تاريخ الميلاد:</label>
+      <input type="date" /><br /><br />
+
+      <label>البريد الإلكتروني:</label>
+      <input type="email" /><br /><br />
+
+      <label>الولاية:</label>
+      <select id="governorate" name="governorate" required>
+        <option value="">اختر الولاية</option>
+        <option value="تونس">تونس</option>
+        <option value="أريانة">أريانة</option>
+        <option value="بن عروس">بن عروس</option>
+        <option value="منوبة">منوبة</option>
+        <option value="بنزرت">بنزرت</option>
+        <option value="نابل">نابل</option>
+        <option value="زغوان">زغوان</option>
+        <option value="باجة">باجة</option>
+        <option value="جندوبة">جندوبة</option>
+        <option value="الكاف">الكاف</option>
+        <option value="سليانة">سليانة</option>
+        <option value="القيروان">القيروان</option>
+        <option value="القصرين">القصرين</option>
+        <option value="سيدي بوزيد">سيدي بوزيد</option>
+        <option value="صفاقس">صفاقس</option>
+        <option value="سوسة">سوسة</option>
+        <option value="المنستير">المنستير</option>
+        <option value="المهدية">المهدية</option>
+        <option value="قابس">قابس</option>
+        <option value="مدنين">مدنين</option>
+        <option value="تطاوين">تطاوين</option>
+        <option value="قفصة">قفصة</option>
+        <option value="توزر">توزر</option>
+        <option value="قبلي">قبلي</option></select
+      ><br /><br />
+
+      <label>رأيك في الموقع:</label><br />
+      <textarea rows="4" cols="50" required></textarea><br /><br />
+
+      <label for="rating">تقييم (من 1 إلى 5):</label>
+      <input type="number" min="1" max="5" required /><br /><br />
+
+      <button type="submit">إرسال التقييم</button>
+    </form>
+  </body>
+</html>
